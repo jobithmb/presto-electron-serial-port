@@ -1,0 +1,22 @@
+{
+  "name": "presto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "install-rebuild": "npm install && ./node_modules/.bin/electron-rebuild",
+    "install": "electron-rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.5",
+    "electron-rebuild": "^1.8.5"
+  },
+  "dependencies": {
+    "serialport": "^7.1.5",
+    "tableify": "^1.1.0"
+  }
+}
